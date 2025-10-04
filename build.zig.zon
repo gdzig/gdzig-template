@@ -1,0 +1,17 @@
+.{
+    .name = .gdzig_template,
+    .version = "0.0.0",
+    .fingerprint = 0xdeadbeef,
+    .dependencies = .{
+        .gdzig = .{
+            .url = "git+https://github.com/gdzig/gdzig#536d5928cab78b63f0f183888fde455e2ac467c5",
+            .hash = "godot-0.0.0-dev-q0GYjvx6qABF7Os4_f-PAaLxAZzp27rbrA_AgK7C4_wh",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+    .minimum_zig_version = "0.15.1",
+}
