@@ -31,7 +31,7 @@ pub fn build(b: *std.Build) !void {
     const install = b.addInstallArtifact(lib, .{
         .dest_dir = .{
             .override = .{ .custom = out_path },
-        }
+        },
     });
 
     b.default_step.dependOn(&install.step);
